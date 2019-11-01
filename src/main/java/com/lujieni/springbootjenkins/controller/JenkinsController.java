@@ -15,6 +15,6 @@ public class JenkinsController {
     @RequestMapping("/hello")
     public String hello(){
         Map<String,String> map = new HashMap<>();
-        return "hello Jenkins12221111";
+        return "hello";
     }
 }
